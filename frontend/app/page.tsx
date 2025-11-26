@@ -7,7 +7,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   
-  const API_URL = 'http://localhost:8000/api';
+  const API_URL = 'https://clg-project-db.onrender.com/api';
 
   // Movies
   const [movies, setMovies] = useState<any[]>([]);
